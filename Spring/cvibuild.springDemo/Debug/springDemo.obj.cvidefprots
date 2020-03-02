@@ -1,0 +1,44 @@
+[update]
+Class="Function"
+Prototype="void update();"
+
+[draw]
+Class="Function"
+Prototype="void draw();"
+
+[init]
+Class="Function"
+Prototype="void init();"
+
+[end_all]
+Class="Function"
+Prototype="void end_all();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelFunc]
+Class="Function"
+Prototype="int panelFunc(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[startSimulationFunc]
+Class="Function"
+Prototype="int startSimulationFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timerFunc]
+Class="Function"
+Prototype="int timerFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[changeY]
+Class="Function"
+Prototype="int changeY(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[showVideoFunc]
+Class="Function"
+Prototype="int showVideoFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[soundFunc]
+Class="Function"
+Prototype="int soundFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
